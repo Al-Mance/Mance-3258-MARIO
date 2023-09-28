@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Character_Mover
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[{"name":"moveSpeed","value":{"$content":5.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"gravity","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"typeHandle":{"Identification":"UnityEngine.Vector3,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"feet","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":219.0,"y":36.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"f3529052-3987-437a-b2bc-5b410141b93d","$version":"A","$type":"Unity.VisualScripting.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":60.0},"guid":"8aa06470-2e82-485b-9b83-129dcebb93fc","$version":"A","$type":"Unity.VisualScripting.Update","$id":"14"},{"outputCount":2,"defaultValues":{},"position":{"x":36.0,"y":36.0},"guid":"648f2349-a493-4338-b329-7c9599d15670","$version":"A","$type":"Unity.VisualScripting.Sequence","$id":"16"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"rotateSpeed","$type":"System.String"},"object":null},"position":{"x":28.0,"y":-161.0},"guid":"c1c72a93-9af5-46cb-ba7c-dd9c6fcc7c9b","$version":"A","$type":"Unity.VisualScripting.GetVariable"},{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"in","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"$content":0.0,"$type":"System.Single"},"_type":"System.Single","key":"Rotate
+      Speed","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-267.0,"y":-68.0},"guid":"0c957efe-244e-428a-8cfa-7cc90d05b78d","$version":"A","$type":"Unity.VisualScripting.GraphInput"},{"defaultValues":{},"position":{"x":105.0,"y":-30.0},"guid":"7fc95ed0-6de9-483b-93ae-f7a469273839","$version":"A","$type":"Unity.VisualScripting.GraphOutput"}],"$version":"A"}},"defaultValues":{},"position":{"x":277.0,"y":-57.0},"guid":"2ca29dab-a3a1-451f-827c-646bf5b47b4c","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit"},{"sourceUnit":{"$ref":"14"},"sourceKey":"trigger","destinationUnit":{"$ref":"16"},"destinationKey":"enter","guid":"a179ecaf-c194-4446-8a1f-ecf2910449fc","$type":"Unity.VisualScripting.ControlConnection"}],"$version":"A"}}'
+    _objectReferences: []
